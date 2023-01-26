@@ -9,6 +9,7 @@ body {
     font-family: 'Archivo Narrow', Arial, sans-serif;
     font-size: 50px;
   }
+  
 :root {
     /* change the values below to your colors from your palette */
     --primary-color: #01161E   ;
