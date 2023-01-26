@@ -1,4 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Archivo+Narrow&display=swap');
+body {
+    display: grid;
+    grid-template-columns: 3fr;
+    background-color: #dfc7b2;
+    font-family: 'Patrick Hand', Arial, sans-serif;
+  }
+  h1 {
+    font-family: 'Archivo Narrow', Arial, sans-serif;
+    font-size: 50px;
+  }
 :root {
     /* change the values below to your colors from your palette */
     --primary-color: #01161E   ;
@@ -95,8 +105,9 @@
 .home-img
 {
     width: 100%;
-    height: 50%;
+    height: 80%;
     border-radius: 10px;
+    margin-top: -50px;
 }
 .logo-box img 
 {
