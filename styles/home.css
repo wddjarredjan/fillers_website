@@ -6,31 +6,9 @@ body {
     font-family: 'Patrick Hand', Arial, sans-serif;
   }
   h1 {
-    font-family: 'Archivo Narrow', Arial, sans-serif;
+    font-family: 'Patrick Hand', Arial, sans-serif;
     font-size: 50px;
-  }
-
-:root {
-    /* change the values below to your colors from your palette */
-    --primary-color: #01161E   ;
-    --secondary-color: #EDFFAB ;
-    --accent1-color: #B87D4B;
-    --accent2-color: #FCD7AD;
-  
-    /* change the values below to your chosen font(s) */
-    --heading-font: "Permanent Marker";
-    --paragraph-font: "Archivo Narrow";
-  
-    /* these colors below should be chosen from among your palette colors above */
-    --headline-color-on-white: #f1e8d3;  /* headlines on a white background */ 
-    --headline-color-on-color: #B87D4B; /* headlines on a colored background */ 
-    --paragraph-color-on-white: #01161E; /* paragraph text on a white background */ 
-    --paragraph-color-on-color: #B87D4B; /* paragraph text on a colored background */ 
-    --paragraph-background-color: #FCD7AD  ;
-    --nav-link-color: #01161E;
-    --nav-background-color: #FCD7AD;
-    --nav-hover-link-color: #B87D4B;
-    --nav-hover-background-color: #FCD7AD;
+    text-align: center;
   }
 
 /* The Overlay (background) */
@@ -97,6 +75,7 @@ body {
     padding: 5px;
     max-width: fit-content;
     background-color: #01161E;
+    border-radius: 10px;
   }
   .onclick:hover {
     color:#EDFFAB;
@@ -116,9 +95,54 @@ body {
     position: relative;
     height: 10em;
     margin-left: 10px;
+    opacity: 1;
 }
 .logo-box
 {
-    padding: 20px;
-    background: rgba(109, 109, 110, 0.50)
+  background-color:#817d73;
+  border-radius: 30px;
+}
+.contents
+{
+  margin-top: -250px;
+}
+.contents p
+{
+  text-align: center;
+  margin-top: -40px;
+  font-size: large;
+  color: #01161E;
+}
+.home-contents p
+{
+  color:#01161E;
+  text-align: center;
+  font-size:xx-large;
+  margin-left: 130px;
+  margin-right: 130px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+footer {  
+  background-color: #817d73;
+  padding: 10px 5px;
+  margin-top: 50px; 
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-weight: bold;
+  font-size: large;
+  width: 100%;
+}
+footer a, p
+  {
+      color:#01161E;
+  }
+footer a:hover
+  {
+      padding-top: 15px;
+  }
+.social img
+{
+  border-radius: 50px;
 }
